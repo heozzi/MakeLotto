@@ -1,7 +1,9 @@
 import pandas as pd
 
 Input_PATH = 'output/'
-
+#TODO 1.퍼펙트 숫자 찾기
+#1) 9개 숫자가 다 나옴
+#2) 8개는 나오는데 마지막 숫자만 레벨업
 if __name__ == "__main__" :
     Data = []
     for i in range(10) :
